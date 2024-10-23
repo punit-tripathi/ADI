@@ -11,7 +11,7 @@ public class main {
          }
     }
 }
-class              heapsort{
+class heapsort{
     void sort(int arr[]){
         int n=arr.length;
         for(int i= n/2 -1; i>=0; i--){
