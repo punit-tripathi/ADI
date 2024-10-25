@@ -5,7 +5,7 @@ public class Priorityqueue {
 
     }
 }
-class Node{
+class        Node{
     int data;
     int priority;
     Node next;
