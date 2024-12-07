@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args) {
 
     }
-    public static void kruskalMST(List<Edge> edges, int V) {
+    public static  void kruskalMST(List<Edge> edges, int V) {
         Collections.sort(edges);
         DisjointSet ds = new DisjointSet(V);
         int mstWeight = 0;
